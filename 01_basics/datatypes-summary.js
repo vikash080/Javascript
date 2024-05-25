@@ -23,11 +23,11 @@ const bigNumber = 234234243243223n // BigInt
 
 const heros = ["shaktiman", "naagraj", "doga"] // Objects
 let myObj = {
-    name:"Vikash",
+    name: "Vikash",
     age: 22,
 }// Objects
 
-const myFunction = function(){ // Object Function
+const myFunction = function () { // Object Function
     console.log("Hello world");
 }
 
