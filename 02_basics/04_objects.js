@@ -10,7 +10,7 @@ tinderUser.isLoggedin = false
 const regularUser = {
     email: "vikas.web.com",
     fullname: {
-        userfullname : {
+        userfullname: {
             firstname: "vikash",
             lastname: "Kumar"
         }
@@ -30,7 +30,7 @@ const obj2 = {
 //const obj3 = {obj1, obj2}
 //const obj3 = Object.assign({},obj1, obj2) // by using {} we can provide an empty object to merge more than one object rather than storing into any one of the objects
 
-const obj3 = {...obj1, ...obj2} //Better to use this for the same result
+const obj3 = { ...obj1, ...obj2 } //Better to use this for the same result
 //console.log(obj3);
 
 const users = [
